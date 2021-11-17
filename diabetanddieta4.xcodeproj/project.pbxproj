@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF987E2274589370027A032 /* diabetanddieta4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF987E1274589370027A032 /* diabetanddieta4App.swift */; };
+		FAF987E4274589370027A032 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF987E3274589370027A032 /* ContentView.swift */; };
+		FAF987E6274589390027A032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF987E5274589390027A032 /* Assets.xcassets */; };
+		FAF987E9274589390027A032 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF987E8274589390027A032 /* Preview Assets.xcassets */; };
+		FAF987F3274589390027A032 /* diabetanddieta4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF987F2274589390027A032 /* diabetanddieta4Tests.swift */; };
+		FAF987FD274589390027A032 /* diabetanddieta4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF987FC274589390027A032 /* diabetanddieta4UITests.swift */; };
+		FAF987FF274589390027A032 /* diabetanddieta4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF987FE274589390027A032 /* diabetanddieta4UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF987EF274589390027A032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF987D6274589370027A032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF987DD274589370027A032;
+			remoteInfo = diabetanddieta4;
+		};
+		FAF987F9274589390027A032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF987D6274589370027A032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF987DD274589370027A032;
+			remoteInfo = diabetanddieta4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF987DE274589370027A032 /* diabetanddieta4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diabetanddieta4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF987E1274589370027A032 /* diabetanddieta4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diabetanddieta4App.swift; sourceTree = "<group>"; };
+		FAF987E3274589370027A032 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAF987E5274589390027A032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF987E8274589390027A032 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAF987EE274589390027A032 /* diabetanddieta4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diabetanddieta4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF987F2274589390027A032 /* diabetanddieta4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diabetanddieta4Tests.swift; sourceTree = "<group>"; };
+		FAF987F8274589390027A032 /* diabetanddieta4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diabetanddieta4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF987FC274589390027A032 /* diabetanddieta4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diabetanddieta4UITests.swift; sourceTree = "<group>"; };
+		FAF987FE274589390027A032 /* diabetanddieta4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diabetanddieta4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF987DB274589370027A032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF987EB274589390027A032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF987F5274589390027A032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF987D5274589370027A032 = {
+			isa = PBXGroup;
+			children = (
+				FAF987E0274589370027A032 /* diabetanddieta4 */,
+				FAF987F1274589390027A032 /* diabetanddieta4Tests */,
+				FAF987FB274589390027A032 /* diabetanddieta4UITests */,
+				FAF987DF274589370027A032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF987DF274589370027A032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF987DE274589370027A032 /* diabetanddieta4.app */,
+				FAF987EE274589390027A032 /* diabetanddieta4Tests.xctest */,
+				FAF987F8274589390027A032 /* diabetanddieta4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF987E0274589370027A032 /* diabetanddieta4 */ = {
+			isa = PBXGroup;
+			children = (
+				FAF987E1274589370027A032 /* diabetanddieta4App.swift */,
+				FAF987E3274589370027A032 /* ContentView.swift */,
+				FAF987E5274589390027A032 /* Assets.xcassets */,
+				FAF987E7274589390027A032 /* Preview Content */,
+			);
+			path = diabetanddieta4;
+			sourceTree = "<group>";
+		};
+		FAF987E7274589390027A032 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAF987E8274589390027A032 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAF987F1274589390027A032 /* diabetanddieta4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF987F2274589390027A032 /* diabetanddieta4Tests.swift */,
+			);
+			path = diabetanddieta4Tests;
+			sourceTree = "<group>";
+		};
+		FAF987FB274589390027A032 /* diabetanddieta4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF987FC274589390027A032 /* diabetanddieta4UITests.swift */,
+				FAF987FE274589390027A032 /* diabetanddieta4UITestsLaunchTests.swift */,
+			);
+			path = diabetanddieta4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF987DD274589370027A032 /* diabetanddieta4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF98802274589390027A032 /* Build configuration list for PBXNativeTarget "diabetanddieta4" */;
+			buildPhases = (
+				FAF987DA274589370027A032 /* Sources */,
+				FAF987DB274589370027A032 /* Frameworks */,
+				FAF987DC274589370027A032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diabetanddieta4;
+			productName = diabetanddieta4;
+			productReference = FAF987DE274589370027A032 /* diabetanddieta4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF987ED274589390027A032 /* diabetanddieta4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF98805274589390027A032 /* Build configuration list for PBXNativeTarget "diabetanddieta4Tests" */;
+			buildPhases = (
+				FAF987EA274589390027A032 /* Sources */,
+				FAF987EB274589390027A032 /* Frameworks */,
+				FAF987EC274589390027A032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF987F0274589390027A032 /* PBXTargetDependency */,
+			);
+			name = diabetanddieta4Tests;
+			productName = diabetanddieta4Tests;
+			productReference = FAF987EE274589390027A032 /* diabetanddieta4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF987F7274589390027A032 /* diabetanddieta4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF98808274589390027A032 /* Build configuration list for PBXNativeTarget "diabetanddieta4UITests" */;
+			buildPhases = (
+				FAF987F4274589390027A032 /* Sources */,
+				FAF987F5274589390027A032 /* Frameworks */,
+				FAF987F6274589390027A032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF987FA274589390027A032 /* PBXTargetDependency */,
+			);
+			name = diabetanddieta4UITests;
+			productName = diabetanddieta4UITests;
+			productReference = FAF987F8274589390027A032 /* diabetanddieta4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF987D6274589370027A032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FAF987DD274589370027A032 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					FAF987ED274589390027A032 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = FAF987DD274589370027A032;
+					};
+					FAF987F7274589390027A032 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = FAF987DD274589370027A032;
+					};
+				};
+			};
+			buildConfigurationList = FAF987D9274589370027A032 /* Build configuration list for PBXProject "diabetanddieta4" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF987D5274589370027A032;
+			productRefGroup = FAF987DF274589370027A032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF987DD274589370027A032 /* diabetanddieta4 */,
+				FAF987ED274589390027A032 /* diabetanddieta4Tests */,
+				FAF987F7274589390027A032 /* diabetanddieta4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF987DC274589370027A032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF987E9274589390027A032 /* Preview Assets.xcassets in Resources */,
+				FAF987E6274589390027A032 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF987EC274589390027A032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF987F6274589390027A032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF987DA274589370027A032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF987E4274589370027A032 /* ContentView.swift in Sources */,
+				FAF987E2274589370027A032 /* diabetanddieta4App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF987EA274589390027A032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF987F3274589390027A032 /* diabetanddieta4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF987F4274589390027A032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF987FF274589390027A032 /* diabetanddieta4UITestsLaunchTests.swift in Sources */,
+				FAF987FD274589390027A032 /* diabetanddieta4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF987F0274589390027A032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF987DD274589370027A032 /* diabetanddieta4 */;
+			targetProxy = FAF987EF274589390027A032 /* PBXContainerItemProxy */;
+		};
+		FAF987FA274589390027A032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF987DD274589370027A032 /* diabetanddieta4 */;
+			targetProxy = FAF987F9274589390027A032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAF98800274589390027A032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF98801274589390027A032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF98803274589390027A032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"diabetanddieta4/Preview Content\"";
+				DEVELOPMENT_TEAM = HYG857Z4NU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.diabetanddieta4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF98804274589390027A032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"diabetanddieta4/Preview Content\"";
+				DEVELOPMENT_TEAM = HYG857Z4NU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.diabetanddieta4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAF98806274589390027A032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYG857Z4NU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.diabetanddieta4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diabetanddieta4.app/diabetanddieta4";
+			};
+			name = Debug;
+		};
+		FAF98807274589390027A032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYG857Z4NU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.diabetanddieta4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diabetanddieta4.app/diabetanddieta4";
+			};
+			name = Release;
+		};
+		FAF98809274589390027A032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYG857Z4NU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.diabetanddieta4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = diabetanddieta4;
+			};
+			name = Debug;
+		};
+		FAF9880A274589390027A032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYG857Z4NU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.diabetanddieta4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = diabetanddieta4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF987D9274589370027A032 /* Build configuration list for PBXProject "diabetanddieta4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF98800274589390027A032 /* Debug */,
+				FAF98801274589390027A032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF98802274589390027A032 /* Build configuration list for PBXNativeTarget "diabetanddieta4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF98803274589390027A032 /* Debug */,
+				FAF98804274589390027A032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF98805274589390027A032 /* Build configuration list for PBXNativeTarget "diabetanddieta4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF98806274589390027A032 /* Debug */,
+				FAF98807274589390027A032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF98808274589390027A032 /* Build configuration list for PBXNativeTarget "diabetanddieta4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF98809274589390027A032 /* Debug */,
+				FAF9880A274589390027A032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF987D6274589370027A032 /* Project object */;
+}
